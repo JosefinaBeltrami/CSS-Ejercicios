@@ -1,0 +1,59 @@
+body {
+    box-sizing: border-box;
+}
+header, main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: baseline;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+.imagen-empresas img {
+    max-width: 100%;
+    border-style: none;
+}
+
+.centro2-contenido3 img {
+    width: 10%;
+    height: 10%;
+}
+
+.principal img {
+    width: 10%;
+    height: 10%;
+}
+
+.cabecera {
+    border-width: 3px 0 0;
+    background-color: #ffffff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    box-sizing: border-box;
+    Arial, Helvetica, sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    display: block;
+}
+
+.cabecera span {
+    font-size: 14px;
+    margin-right: 16px;
+    padding-right: 16px;
+    Arial, Helvetica, sans-serif 'Poppins';
+    flex-grow: 1;
+}
+
+.cabecera ul {
+    display: flex;
+    margin: 0;
+    padding-left: 0px;
+}
+
+div {
+    margin: 16px;
+    padding: 16px;
+}

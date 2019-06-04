@@ -1,0 +1,154 @@
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: auto;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.breadcrumbs {
+    list-style: none; /* elimina las viñetas */ 
+}
+
+.breadcrumbs li {
+    display: inline-block;
+}
+
+.breadcrumbs li a {
+    color: #d6d6d6;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.breadcrumbs li:last-child a {
+    color: #000000;
+   
+}
+
+.main {
+padding-top: 100px
+}
+
+.article {
+    overflow: hidden;
+    display: inline-block;
+    width: 300px;
+    padding: 0px 12px;
+
+}
+.imagen {
+    max-width: 100%;    
+    padding: 0px 0px 12px;
+}
+.imagen:hover {
+    transform: scale(1.1);
+}
+.descripcion {
+    color: #313131;
+    font-size: 16px;
+    font: bold;
+    padding: 10px 0px 40px; 
+    font-family: "Graphik",sans-serif;
+}
+
+.precio {
+    color: #313131;
+    font-size: 16px;
+    font: bold;
+    padding: 10px 0px 40px;
+    font-family: "Graphik",sans-serif;
+}
+.newsletter {
+    text-transform: uppercase;
+    width: 670px;
+    margin: 10px auto;
+    padding: 5px;
+    font-size: 34px;
+    display: block;
+
+
+}
+
+
+footer {
+    width: 100%;
+    font-family: "Graphik",sans-serif; 
+    position: absolute;
+    letter-spacing: .4px;
+    text-transform: none;
+    text-align: center;
+}
+
+footer p {
+    font-size: 12px;
+
+}
+.breadcrumbs2 li {
+
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+
+}
+
+
+footer div ul.breadcrumbs {
+    color: #6fd5a4;
+
+}
+
+.footer-menu {
+    display: flex;
+    width: 98%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+    font-size: 12px;
+    
+}
+
+.footer-menu .footer-columna {
+    width: calc(100% / 6);
+}
+
+.footer-menu .footer-columna h2 {
+    font-weight: 700;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    line-height: 28px;
+
+}
+
+.footer-menu .footer-columna ul {
+    line-height: 30px;
+
+}
+
+footer img {
+    width: 10%;
+    height: 15%;
+}
+
+.formulario {
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.emailintr::before {
+    box-sizing: inherit;
+}
+.emailintr::after {
+    box-sizing: inherit;
+}

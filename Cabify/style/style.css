@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+.header-page__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-page__center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-logo {
+  margin: 20px 40px;
+}
+
+.header-nav {
+  padding: 25px;
+}
+
+.header-nav li {
+  display: inline;
+  padding-left: 30px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 20px;
+}
+
+.header-info li {
+  display: inline;
+  padding-left: 30px;
+}
+
+.header-info a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-info button {
+  border: none;
+  font-size: 16px;
+}
+
+.section-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.section-box__info {
+  padding: 20px 70px;
+}
+
+.section-box__info h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 44px;
+  padding-bottom: 20px;
+}
+
+.section-box__info p {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.section-box__info button {
+  font-size: 20px;
+  color: white;
+  background-color: #8142ff;
+  border: none;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.section-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+
+.section-phone__photo .image {
+  width: 350px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.icon {
+  width: 20px;
+  fill: #ff70a9;
+}
+
+.section-phone__text {
+  width: 40%;
+}
+/*# sourceMappingURL=style.css.map */

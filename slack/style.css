@@ -1,0 +1,74 @@
+body {
+    Arial, Helvetica, sans-serif Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;    
+}
+.logo img{
+    width: 10%;
+    height: 10%px;
+}
+.wrap-medium{
+display: block;
+max-width: 54rem;
+margin: 0 auto;
+}
+
+.wrap-medium h2 {
+    font-size: 32px;
+    line-height: 38px;
+    color: #1d1d1d;
+}
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.img-col {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+.titulo {
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-block: .5rem;
+    font-size:18px;
+}
+.detalle {
+    font-weight: 400;
+
+}
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.logos img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.section-prueba {
+    background-size: 1300px 700px;
+    background-repeat: repeat;
+    display: flex;
+    background-color: #4A154B;
+    align-items: center;
+    height: 370px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.section-prueba h2 {
+
+
+}
+.section-logos {
+    background-color:#EFEFEF;
+}
+.section-cuadros {
+    background-color: #EFEFEF;
+}
